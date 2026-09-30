@@ -130,15 +130,19 @@
   line-height: 1.5;
   color: #585777;
 }
-
-@media (max-width: 700px) {
-
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 40px 15px;
+  }
   .contact-container {
     flex-direction: column;
+    gap: 35px;
   }
   .contact-form-box,
   .contact-details {
     width: 100%;
   }
-
+  .contact-form-box form {
+    padding: 20px 15px;
+  }
 }

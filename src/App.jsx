@@ -9,11 +9,9 @@ import Cart from "./components/Cart";
 import OrderSuccess from "./components/OrderSuccess";
 import Footer from "./components/Footer";
 
-
 import "./style/global.css";
 
 function App() {
-
   const [cartItems, setCartItems] = useState([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [isOrderPlaced, setIsOrderPlaced] = useState(false);
@@ -125,7 +123,7 @@ function App() {
 
       <Header
         cartCount={cartCount}
-        openCart={() => setIsCartOpen(true)}
+          openCart={() => setIsCartOpen(true)}
       />
 
       <Hero />
@@ -133,9 +131,7 @@ function App() {
       <Menu
         addToCart={addToCart}
       />
-
       <About />
-
       <Contact
         showMessage={showMessage}
       />

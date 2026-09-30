@@ -54,7 +54,6 @@
   padding: 20px;
   font-size: 13px;
 }
-
 @media (max-width: 900px) {
   .footer-container {
     grid-template-columns: 1fr 1fr;
@@ -63,5 +62,6 @@
 @media (max-width: 600px) {
   .footer-container {
     grid-template-columns: 1fr;
+    padding: 0 20px 30px;
   }
 }

@@ -99,7 +99,19 @@
   margin-top: 4px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
+  .about-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 50px 15px;
+  }
+  .about-container h2 {
+    font-size: 28px;
+  }
   .about-cards {
     grid-template-columns: 1fr;
   }
