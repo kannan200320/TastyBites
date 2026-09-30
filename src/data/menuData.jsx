@@ -17,7 +17,7 @@ const menuData = [
     price: 15.49,
     rating: 4.9,
     image:
-      "https://cookingitalians.com/wp-content/uploads/2024/11/Margherita-Pizza.jpg",
+      "https://i.pinimg.com/1200x/d5/e8/59/d5e859cd6e7eed8c10cdc5e5522838da.jpg",
     description:
       "Fresh basil, organic tomato sauce, and mozzarella cheese baked to perfection.",
   },
